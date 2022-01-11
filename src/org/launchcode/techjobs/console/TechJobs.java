@@ -42,6 +42,7 @@ public class TechJobs {
                     printJobs(JobData.findAll());
                 } else {
 
+
                     ArrayList<String> results = JobData.findAll(columnChoice);
 
                     System.out.println("\n*** All " + columnChoices.get(columnChoice) + " Values ***");

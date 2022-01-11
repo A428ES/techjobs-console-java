@@ -54,6 +54,7 @@ public class JobData {
         ArrayList<HashMap<String, String>> newJobs = new ArrayList<HashMap<String, String>>(allJobs);
 
         return newJobs;
+
     }
 
     /**
